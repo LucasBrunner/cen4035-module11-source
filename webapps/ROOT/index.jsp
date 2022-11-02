@@ -29,7 +29,7 @@
       
       <%
         String driver = "com.mysql.cj.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3306/listdotcom?allowMultiQueries=true";
+        String url = "jdbc:mysql://localhost:3306/listdotcom?useSSL=false&allowMultiQueries=true";
         String username = "listdotcomuser";
         String password = "s3cret";
     
