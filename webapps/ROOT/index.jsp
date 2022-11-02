@@ -253,7 +253,7 @@
               <h2 style="color: red">Don't panic, but something went wrong.</h2>
               <p>
             <%
-              e.printStackTrace();
+              out.print(e.getMessage());
             %>
               </p>
             <%
